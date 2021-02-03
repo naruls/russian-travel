@@ -1,0 +1,16 @@
+.place__link{
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFF
+}
+.place__link:hover{
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .place__link{
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
