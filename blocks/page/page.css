@@ -6,4 +6,6 @@
   padding:0;
   border: 0;
   background-color: #2A2C2F;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
