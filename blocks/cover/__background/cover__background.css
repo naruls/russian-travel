@@ -1,5 +1,4 @@
 .cover__background{
-  overflow: hidden;
   grid-column: 1;
   grid-row: 1/4;
   max-width: 100%;
