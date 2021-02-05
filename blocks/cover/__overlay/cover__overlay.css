@@ -1,0 +1,31 @@
+.cover__overlay{
+  position: relative;
+  max-width: 100%;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  text-decoration-line: none;
+}
+.cover__overlay::before {
+  content: '';
+  position: absolute;
+  background: #2A2C2F;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.8;
+}
+@media screen and (min-width: 1024px){
+  .cover__overlay{
+    min-height: 640px;
+  }
+}  
+@media screen and (min-width: 1280px) {
+  .cover__overlay{
+    width: 1184px;
+  }
+}
