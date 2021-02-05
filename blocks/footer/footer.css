@@ -1,6 +1,5 @@
 .footer{
-  max-width: 928px;
-  max-height: 18px;
+  min-width: 928px;
   margin: 92px auto 0;
   padding-bottom: 24px;
   display: flex;
@@ -16,16 +15,14 @@
     line-height: 7.5%;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1049px){
   .footer{
     min-width: 720px;
     max-width: 90.625%;
-    margin: 92px auto 0;
   }
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1050px){
   .footer{
-    min-width: 928px;
     max-width: 92.5%;
   }
 }

@@ -10,9 +10,3 @@
     line-height: calc(0.109*100vw);
   }
 }
-@media screen and (min-width: 540px) and (max-width:767px){
-  .intro__title{
-    font-size: 54px;
-    line-height: 58px;
-  }
-}

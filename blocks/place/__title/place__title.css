@@ -13,9 +13,8 @@
     margin: 0 auto;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
   .place__title{
-    font-weight: 900;
     font-size: calc(0.054687*100vw);
     line-height: 46px;
   }

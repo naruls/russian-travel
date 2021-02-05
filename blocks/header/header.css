@@ -1,5 +1,4 @@
 .header{
-  max-width: 928px;
   margin: 0 auto 48px;
   padding: 28px 0 0;
   display: flex;
@@ -11,15 +10,9 @@
     padding: 16px 0 0;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px){
   .header{
     min-width: 720px;
-    max-width: 90.625%;
-  }
-}
-@media screen and (min-width: 1024px){
-  .header{
-    min-width: 928px;
     max-width: 90.625%;
   }
 }
