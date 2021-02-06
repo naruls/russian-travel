@@ -9,6 +9,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__block-figure/lead__block-figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__foreground-image/lead__foreground-image.css);
 @import url(../blocks/lead/__background-image/lead__background-image.css);

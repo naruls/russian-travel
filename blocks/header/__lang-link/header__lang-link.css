@@ -9,7 +9,7 @@
   margin-left: auto;
   text-decoration-line: none;
 }
-.header__lang-link:last-of-type{
+.header__lang-link:not(:first-of-type){
   margin-left: 18px;
 }
 .header__lang-link:hover{
